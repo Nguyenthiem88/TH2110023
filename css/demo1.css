@@ -1,0 +1,25 @@
+h1{
+    color: #22222;/*ma mau hexa-*/
+    font-size: 30px;/*co chu-*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;/*100-thin 300 light 400-nora 500-medium 600-semibold 700-bold 800-extra bold 900 -black*/
+    line-height: 1.2;/*=font-seze nhan voi 1.5 = 27px*/
+    text-decoration: underline;/*gach chan,gach ngang*/
+    text-transform: uppercase;/*uppercase- in hoa het lowercase capitalize- viet thuong het capitalize- viet hoa chu cai dau tien*/
+    text-align: justify;/*can le justufy can deu */
+    text-indent: 20px;/*lui dau dong doan van*/
+    width: 800px;/*kich thước của khối (chiều dài đoạn văn khi xuống dòng)*/
+    background-color: green;/*màu nền*/
+}
+p{
+    color: green;
+    text-align: justify;/*can le justufy can deu */
+    text-indent: 20px;/*lui dau dong doan van*/
+    width: 800px;/*kich thước của khối (chiều dài đoạn văn khi xuống dòng)*/
+}
+a{
+    color: rgb(225,17,200);
+}
+body{
+    background-color: antiquewhite;/*mau  nền trang*/
+}
