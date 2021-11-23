@@ -1,0 +1,112 @@
+*{
+
+}
+body{
+    background-color: #f2f2f2;
+    color: #242424;
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 400;
+    font-family: "Roboto",sans-serif;
+    width: 800px;
+    margin: 20px 250px 20px 250px;
+    background-image: url("../images/maytinh.jpg");
+    background-size: cover;
+
+}
+.cv{
+    width: 900px;
+    height: 150px;
+    background-color: #c2d5d5;
+    padding 20px;
+    box-sizing: border-box;
+}
+.cv1{
+    width: 200px;
+    height: 310px;
+    border-bottom: 2px solid darkgray;
+    float: left;
+    margin:-840px 10px 10px 25px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #e0dcdc;
+}
+.cv11{
+    width: 200px;
+    height: 300px;
+    border-bottom: 2px solid darkgray;
+    float: left;
+    margin:-530px 10px 10px 25px ;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #e0dcdc;
+}
+.cv4{
+    width: 200px;
+    height: 280px;
+    border-top: 2px solid darkgray;
+    float: left;
+    margin:-280px 10px 10px 25px ;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #e0dcdc;
+}
+.cv2{
+    width: 900px;
+    height: 200px;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #eae7e7;
+
+}
+.cv3{
+    width: 900px;
+    height: 260px;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #eae7e7;
+}
+.pt{
+    font-size: 14px;
+    text-align: center;
+    line-height: 0.1;
+}
+h1{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 2;
+    text-align: center;
+    font-family: sans-serif;
+}
+h2{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+}
+.pt1{
+    text-align: justify;
+    margin: 5px 5px 5px 250px;
+    line-height: 1.4;
+}
+.pt11{
+    text-align: justify;
+    margin: 5px 5px 5px 250px;
+    line-height: 1.4;
+    border-bottom: 2px solid #b7b4b4;
+}
+.h3{
+    text-align: justify;
+    margin: 5px 5px 5px 750px;
+}
+.pt2{
+    font-size: 20;
+    font-weight: 700;
+}
