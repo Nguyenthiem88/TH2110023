@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #222222;
+    text-align: left;
+    background-color: #eeeeee;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+p{
+    margin-bottom: 10px;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    float: none;
+    width: 1200px;
+    margin: 0 auto;
+}
+head{
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+    padding: 20px 0;
+}
+.logo{
+    float: left;
+    width: 33%;
+}
+.toplinks{
+    float: right;
+}
+.logo a{
+    font-size: 28px;
+    color: #222222;
+    font-weight: 700;
+}
+.logo p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+.toplinks li{
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+}
+.toplinks li a{
+    color: #222222;
+    font-weight: 500;
+    line-height: 60px;
+}
+.nav{
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+    padding: 20px 0;
+}
+.menu li{
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+}
+menu li.last{
+    float: right;
+    margin: 0;
+}
+menu li a{
+    color: #222222;
+    font-weight: 500;
+}
+.main{
+    margin-top: 30px;
+}
+.content{
+    float: left;
+    width: 66.67%;
+}
+.sidebar{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    background-color: #595858;
+    height: 360px;
+    margin-bottom: 40px;
+}
+.gray {
+    background-color: white;
+    height: 200px;
+}
+.content .entry{
+    height: 800px;
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px 80px ;
+}
+.sidebar .block{
+    float: left;
+    width: 80%;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 0 30px 20px 30px;
+}
+.sidebar .black{
+    background-color: #595858;
+    padding: 15px 0 0 0;
+}
+.sidebar .red{
+    background-color: red;
+    padding-left: 100px;
+}
+.sidebar .entry{
+    height: 500px;
+    float: right;
+    width: 100%;
+}
+.sidebar .icon{
+    margin-bottom: 5px;
+    padding: 5px 5px 0 ;
+    float: left;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: justify;
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 40px 0 0 0 ;
+}
+h2{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 3.5;
+}
+.font1{
+    color: red;
+    text-decoration: underline;
+}
+.black p{
+    font-size: 14px;
+    color: #a9a7a7;
+    line-height: 1.5;
+    padding-top: 15px;
+}
+h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #a9a7a7;
+    line-height: 1.2;
+}
+.sidebar img{
+    margin-right: 9.5px;
+    margin-bottom: 10px;
+    background-color: #989696;
+}
+.gray h3{
+    color: black;
+    line-height: 1.1;
+    padding-top: 15px;
+}
