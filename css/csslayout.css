@@ -99,6 +99,10 @@ menu li a{
     background-color: white;
     height: 200px;
 }
+.Search {
+    background-color: white;
+    height: 100px;
+}
 .content .entry{
     height: 800px;
     float: left;
@@ -130,6 +134,13 @@ menu li a{
     margin-bottom: 5px;
     padding: 5px 5px 0 ;
     float: left;
+}
+.sidebar .icon1{
+    height: 50px;
+    margin: 15px 30px;
+    padding: 15px 60px;
+    float: left;
+    border: 2px solid lavender;
 }
 p{
     font-size: 18px;
