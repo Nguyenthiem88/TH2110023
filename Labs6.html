@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab S6</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Labs6.css"/>
+</head>
+<body>
+<section class="main section">
+    <div class="container">
+        <div class="content">
+            <div class="entry">
+                <h1>Create task</h1>
+                <form method="get" action="#">
+                    <label class="bang1">
+                    <input type="text" name="Type" placeholder="Type" required/>
+                    </label>
+                    <br/>
+                    <select name="company">
+                        <option>Company</option>
+                        <option value="hn">Hanoi</option>
+                        <option value="sg">TP HCM</option>
+                        <option value="th">Thái Bình</option>
+                    </select>
+                    <select name="opp">
+                        <option>Opportunity</option>
+                        <option value="hn">Hanoi</option>
+                        <option value="sg">TP HCM</option>
+                        <option value="th">Thái Bình</option>
+                    </select>
+                    <h2>Optional</h2>
+                    <label class="bang1">
+                    <input type="text" name="Task name" placeholder="Task name" required/>
+                    </label>
+                    <br/>
+                    <label class="bang1">
+                    <input type="text" name="CC" placeholder="CC" required/>
+                    </label>
+                    <h3>Optional</h3>
+                    <br/>
+                    <div class="chon">
+                        <div class="t1">
+                            <label class="f1">Nature of request</label>
+                            <br/>
+                            <label><input type="checkbox" class="checkbox1" name="nature" value="Ads revier"/> Ads revier</label>
+                            <br/>
+                            <label><input type="checkbox" class="checkbox1" name="nature" value="Keywords review"/> Keywords review</label>
+                            <br/>
+                            <label><input type="checkbox" class="checkbox1" name="nature" value="Extensions review"/> Extensions review</label>
+                            <br/>
+                            <button class="bt1" type="submit">Submit</button>
+                        </div>
+                        <div class="t2">
+                            <label class="f1">Current reviewable</label>
+                            <br/>
+                            <label><input type="radio" class="checkbox1" name="current" value="Approved"/> Approved</label>
+                            <br/>
+                            <label><input type="radio" class="checkbox1" name="current" value="Not approved"/>Not approved</label>
+                            <br/>
+                            <button class="bt2" type="reset">Reset</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
