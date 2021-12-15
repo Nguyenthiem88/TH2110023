@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #222222;
+    text-align: left;
+    background-color: white;
+}
+.container1{
+    float: none;
+    width: 1200px;
+    height: 2120px;
+    margin: 0 auto;
+    background-image: url("../images/thoitiet1.jpg");
+    background-size: cover;
+    padding: 10px 60px;
+}
+.forecast li{
+    float: left;
+    width: 240px;
+    height: 180px;
+    list-style: none;
+    border: 1px solid #478da0;
+    background-color: rgba(162, 167, 175, 0.5);
+    margin: 15px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+.forecast li .temp{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: white;
+}
+.forecast li img{
+    position: absolute;
+    right: 5px;
+    bottom: 50px;
+}
+p{
+    padding-top: 35px;
+    font-size: 16px;
+    color: white;
+}
+.forecast li .timer{
+    color: white;
+    font-weight: 500;
+}
