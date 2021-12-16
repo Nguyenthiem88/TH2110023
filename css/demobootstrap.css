@@ -1,0 +1,45 @@
+.box-1{
+    height: 100px;
+    background-color: #6b6767;
+    margin: 15px auto;
+    width: 1200px;
+    float: none;
+}
+.box-2{
+    height: 1200px;
+    background-color: #eeeeea;
+    width: 1200px;
+    float: none;
+    margin: -15px auto;
+    padding: 15px 60px;
+}
+.category li{
+    float: left;
+    width: 300px;
+    height: 350px;
+    list-style: none;
+    border: 1px solid #478da0;
+    background-color: white;
+    margin: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+.category li .name{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.category li img{
+    position: absolute;
+    right: 45px;
+    bottom: 70px;
+    width: 200px;
+    height: 200px;
+}
+.category li .money{
+    font-size: 20px;
+    margin-top: 240px;
+    text-align: center;
+    color: #45d2ce;
+    font-weight: 700;
+}
