@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/AssignmentJS3.css"/>
+</head>
+<body>
+<div class="block">
+    <h1> Xác định vị trí trong Tabs</h1>
+    <ul>
+        <li >
+            <button type="button" class="bt" onclick="note(1)" onmouseenter="doimau(1)">Home</button>
+        </li>
+        <li >
+            <button type="button" class="bt" onclick="note(2)" onmouseenter="doimau(2)">Profile</button>
+        </li>
+        <li >
+            <button type="button" class="bt" onclick="note(3)" onmouseenter="doimau(3)">Messages</button>
+        </li>
+        <li >
+            <button type="button" class="bt" onclick="note(4)" onmouseenter="doimau(4)">Settings</button>
+        </li>
+    </ul>
+    <div id="note">
+    </div>
+</div>
+<script type="text/javascript">
+    function note(x) {
+        var tt = document.getElementById("note");
+        var nut=document.getElementsByClassName("bt");
+        if (x == 1) {
+            tt.style.display="block";
+            for(var i=0;i<nut.length;i++){
+                nut[i].style.backgroundColor="white";
+                nut[i].style.border="none";
+                nut[i].style.borderBottom="1px solid #b0afaf";
+                nut[i].style.borderTopRightRadius="5px";
+                nut[i].style.borderTopLeftRadius="5px";
+            }
+            nut[x-1].style.border="1px solid #b0afaf";
+            nut[x-1].style.backgroundColor="white";
+            nut[x-1].style.borderBottom="1px solid white";
+            tt.innerText = "This is Home content";
+        }
+        else if (x == 2) {
+            tt.style.display="block";
+            for(var i=0;i<nut.length;i++){
+                nut[i].style.backgroundColor="white";
+                nut[i].style.border="none";
+                nut[i].style.borderBottom="1px solid #b0afaf";
+            }
+            nut[x-1].style.border="1px solid #b0afaf";
+            nut[x-1].style.backgroundColor="white";
+            nut[x-1].style.borderBottom="1px solid white";
+            tt.innerText = "This is Profile content";
+        }
+        else if (x == 3) {
+            tt.style.display="block";
+            for(var i=0;i<nut.length;i++){
+                nut[i].style.backgroundColor="white";
+                nut[i].style.border="none";
+                nut[i].style.borderBottom="1px solid #b0afaf";
+            }
+            nut[x-1].style.border="1px solid #b0afaf";
+            nut[x-1].style.backgroundColor="white";
+            nut[x-1].style.borderBottom="1px solid white";
+            tt.innerText = "This is Messages content";
+        }
+        else if (x == 4) {
+            tt.style.display="block";
+            for(var i=0;i<nut.length;i++){
+                nut[i].style.backgroundColor="white";
+                nut[i].style.border="none";
+                nut[i].style.borderBottom="1px solid #b0afaf";
+            }
+            nut[x-1].style.backgroundColor="white";
+            nut[x-1].style.border="1px solid #b0afaf";
+            nut[x-1].style.borderBottom="1px solid white";
+            tt.innerText = "This is Settings content";
+        }
+    }
+    function doimau(t) {
+        var nut = document.getElementsByClassName("bt");
+        if (t == 1) {
+            for (var i = 0; i < nut.length; i++) {
+                nut[i].style.backgroundColor = "white";
+            }
+            nut[t-1].style.backgroundColor="#e7e5e5";
+        } else if (t == 2) {
+            for (var i = 0; i < nut.length; i++) {
+                nut[i].style.backgroundColor = "white";
+            }
+            nut[t-1].style.backgroundColor="#e7e5e5";
+        } else if (t == 3) {
+            for (var i = 0; i < nut.length; i++) {
+                nut[i].style.backgroundColor = "white";
+            }
+            nut[t-1].style.backgroundColor="#e7e5e5";
+        } else if (t == 4) {
+            for (var i = 0; i < nut.length; i++) {
+                nut[i].style.backgroundColor = "white";
+            }
+            nut[t-1].style.backgroundColor="#e7e5e5";
+        }
+    }
+</script>
+</body>
+</html>
