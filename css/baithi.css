@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #222222;
+    text-align: left;
+    background-color: #eeeeee;
+}
+.container{
+    float: none;
+    width: 800px;
+    margin: 0 auto;
+}
+.content{
+    float: left;
+    width: 100%;
+    background-color: #1f8a75;
+    margin: 100px auto;
+}
+.content .entry{
+    height: 800px;
+    float: none;
+    width: 70%;
+    background-color: white;
+    margin: 50px 120px ;
+}
+.bang1 input{
+    float: none;
+    font-size: 20px;
+    width: 80%;
+    height: 70px;
+    background-color: #e8eae5;
+    margin: 20px 56px;
+    padding: 0 0 0 20px ;
+}
+.entry .chon{
+    width: 800px;
+    float: none;
+    margin: 0 auto;
+}
+.td1{
+    background-color: #a212b7;
+    width: 560px;
+    float: left;
+    height: 120px;
+    margin-bottom: 30px;
+}
+.checkbox1{
+    width: 40px;
+    height: 25px;
+    margin-left: 56px;
+    margin-top: 10px;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    line-height: 2.4;
+}
+h2{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #918d8d;
+}
+.bt1{
+    font-size: 30px;
+    margin: 20px 56px;
+    padding: 0 0 0 20px ;
+    background-color: #a212b7;
+    width: 80%;
+    height: 70px;
+}
+
+
+
